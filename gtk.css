@@ -1,12 +1,13 @@
 /* 🔹 Padding en el Panel */
 .xfce4-panel {
-    background-color: rgb(22, 21, 21);
+    background-color: rgba(35, 33, 54, 0.8); 
 }
 
 #actions-button {
     padding: 12px;
     font-weight: 700;
-    background-color: rgb(236, 86, 211);;
+    background-color: #eb6f92;
+    color: #fff;
 }
 
 #xfce-panel-toggle-button:nth-child(1) {
@@ -27,7 +28,7 @@
 
 #xfce-panel-toggle-button:checked,
 #xfce-panel-toggle-button:hover {
-    color: rgb(236, 86, 211);
+    color: #eb6f92;
     font-weight: 700;
 }
 
